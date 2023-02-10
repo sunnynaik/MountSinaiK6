@@ -1,0 +1,747 @@
+metric_name,timestamp,metric_value,check,error,error_code,expected_response,group,method,name,proto,scenario,service,status,subproto,tls_version,url,extra_tags
+vus,1675958079,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958079,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958079,1.000000,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_duration,1675958079,987.561300,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_blocked,1675958079,114.509000,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_connecting,1675958079,16.204800,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_tls_handshaking,1675958079,34.374600,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_sending,1675958079,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_waiting,1675958079,964.989700,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_receiving,1675958079,22.571600,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_failed,1675958079,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+checks,1675958079,1.000000,home status is ok 200,,,,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,,,,default,,,,,,
+vus,1675958080,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958080,1.000000,,,,,,,,,,,,,,,
+vus,1675958081,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958081,1.000000,,,,,,,,,,,,,,,
+vus,1675958082,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958082,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958082,1.000000,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_duration,1675958082,249.205900,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_blocked,1675958082,615.978700,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_connecting,1675958082,194.812600,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_tls_handshaking,1675958082,419.267800,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_sending,1675958082,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_waiting,1675958082,248.484500,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_receiving,1675958082,0.721400,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_failed,1675958082,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+vus,1675958083,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958083,1.000000,,,,,,,,,,,,,,,
+vus,1675958084,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958084,1.000000,,,,,,,,,,,,,,,
+vus,1675958085,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958085,1.000000,,,,,,,,,,,,,,,
+vus,1675958086,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958086,1.000000,,,,,,,,,,,,,,,
+vus,1675958087,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958087,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958087,9295.158500,,,,,:: Search appointment on MountSinai API ::Page_1 - https://www.mountsinai.org/,,,,default,,,,,,
+http_reqs,1675958087,1.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_duration,1675958087,268.856000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_blocked,1675958087,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_connecting,1675958087,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_tls_handshaking,1675958087,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_sending,1675958087,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_waiting,1675958087,268.856000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_receiving,1675958087,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_failed,1675958087,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+vus,1675958088,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958088,1.000000,,,,,,,,,,,,,,,
+vus,1675958089,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958089,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958089,1.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_duration,1675958089,1472.780900,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_blocked,1675958089,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_connecting,1675958089,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_tls_handshaking,1675958089,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_sending,1675958089,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_waiting,1675958089,1089.824700,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_receiving,1675958089,382.956200,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+http_req_failed,1675958089,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,GET,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,my_tag=latest doctors tag
+checks,1675958089,1.000000,find a doctor status is ok 200,,,,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,,,,default,,,,,,
+vus,1675958090,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958090,1.000000,,,,,,,,,,,,,,,
+vus,1675958091,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958091,1.000000,,,,,,,,,,,,,,,
+vus,1675958092,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958092,1.000000,,,,,,,,,,,,,,,
+vus,1675958093,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958093,1.000000,,,,,,,,,,,,,,,
+vus,1675958094,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958094,1.000000,,,,,,,,,,,,,,,
+vus,1675958095,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958095,1.000000,,,,,,,,,,,,,,,
+vus,1675958096,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958096,1.000000,,,,,,,,,,,,,,,
+vus,1675958097,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958097,1.000000,,,,,,,,,,,,,,,
+vus,1675958098,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958098,1.000000,,,,,,,,,,,,,,,
+vus,1675958099,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958099,1.000000,,,,,,,,,,,,,,,
+vus,1675958100,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958100,1.000000,,,,,,,,,,,,,,,
+vus,1675958101,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958101,1.000000,,,,,,,,,,,,,,,
+vus,1675958102,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958102,1.000000,,,,,,,,,,,,,,,
+vus,1675958103,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958103,1.000000,,,,,,,,,,,,,,,
+vus,1675958104,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958104,1.000000,,,,,,,,,,,,,,,
+vus,1675958105,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958105,1.000000,,,,,,,,,,,,,,,
+vus,1675958106,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958106,1.000000,,,,,,,,,,,,,,,
+vus,1675958107,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958107,1.000000,,,,,,,,,,,,,,,
+vus,1675958108,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958108,1.000000,,,,,,,,,,,,,,,
+vus,1675958109,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958109,1.000000,,,,,,,,,,,,,,,
+vus,1675958110,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958110,1.000000,,,,,,,,,,,,,,,
+vus,1675958111,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958111,1.000000,,,,,,,,,,,,,,,
+vus,1675958112,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958112,1.000000,,,,,,,,,,,,,,,
+vus,1675958113,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958113,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958113,26645.396500,,,,,:: Search appointment on MountSinai API ::Page_2 : https://www.mountsinai.org/find-a-doctor/result?search-term=Primary%20Care&type=specialty,,,,default,,,,,,
+vus,1675958114,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958114,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958114,1.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+http_req_duration,1675958114,278.134700,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+http_req_blocked,1675958114,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+http_req_connecting,1675958114,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+http_req_tls_handshaking,1675958114,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+http_req_sending,1675958114,0.510000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+http_req_waiting,1675958114,275.395300,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+http_req_receiving,1675958114,2.229400,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+http_req_failed,1675958114,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=augustus-g-mantia&pid=0000072500001497288302&officeId=0000072440018070746301&epicVisitId=2252,my_tag=Available doctor tag
+checks,1675958114,1.000000,appointment available  status is ok 200,,,,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,,,,default,,,,,,
+vus,1675958115,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958115,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958115,1298.377600,,,,,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,,,,default,,,,,,
+http_reqs,1675958115,1.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+http_req_duration,1675958115,247.077200,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+http_req_blocked,1675958115,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+http_req_connecting,1675958115,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+http_req_tls_handshaking,1675958115,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+http_req_sending,1675958115,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+http_req_waiting,1675958115,245.243300,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+http_req_receiving,1675958115,1.833900,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+http_req_failed,1675958115,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=zahava-hersh&pid=0000072500081997722401&officeId=0000072440088485458481&epicVisitId=2252,my_tag=Available doctor tag
+checks,1675958115,1.000000,appointment available  status is ok 200,,,,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,,,,default,,,,,,
+vus,1675958116,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958116,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958116,1258.235400,,,,,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,,,,default,,,,,,
+vus,1675958117,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958117,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958117,1.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+http_req_duration,1675958117,660.510300,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+http_req_blocked,1675958117,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+http_req_connecting,1675958117,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+http_req_tls_handshaking,1675958117,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+http_req_sending,1675958117,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+http_req_waiting,1675958117,462.274400,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+http_req_receiving,1675958117,198.235900,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+http_req_failed,1675958117,0.000000,,,,true,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,GET,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/view-availability?doctor-name=maki-kano&pid=0000072500004566809911&officeId=0000072440042064878701&epicVisitId=2252,my_tag=Available doctor tag
+checks,1675958117,1.000000,appointment available  status is ok 200,,,,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,,,,default,,,,,,
+vus,1675958118,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958118,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958118,1664.941500,,,,,:: Search appointment on MountSinai API ::Page_3 : https://doctor.mountsinai.org/view-availability,,,,default,,,,,,
+group_duration,1675958118,40162.337000,,,,,:: Search appointment on MountSinai API ,,,,default,,,,,,
+http_reqs,1675958118,1.000000,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+http_req_duration,1675958118,297.508600,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+http_req_blocked,1675958118,0.000000,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+http_req_connecting,1675958118,0.000000,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+http_req_tls_handshaking,1675958118,0.000000,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+http_req_sending,1675958118,0.000000,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+http_req_waiting,1675958118,291.645700,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+http_req_receiving,1675958118,5.862900,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+http_req_failed,1675958118,0.000000,,,,true,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,GET,https://www.mountsinai.org/appointment,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/appointment,
+checks,1675958118,1.000000,find doctor status is ok 200,,,,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,,,,default,,,,,,
+vus,1675958119,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958119,1.000000,,,,,,,,,,,,,,,
+vus,1675958120,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958120,1.000000,,,,,,,,,,,,,,,
+vus,1675958121,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958121,1.000000,,,,,,,,,,,,,,,
+vus,1675958122,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958122,1.000000,,,,,,,,,,,,,,,
+vus,1675958123,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958123,1.000000,,,,,,,,,,,,,,,
+vus,1675958124,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958124,1.000000,,,,,,,,,,,,,,,
+vus,1675958125,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958125,1.000000,,,,,,,,,,,,,,,
+vus,1675958126,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958126,1.000000,,,,,,,,,,,,,,,
+vus,1675958127,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958127,1.000000,,,,,,,,,,,,,,,
+vus,1675958128,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958128,1.000000,,,,,,,,,,,,,,,
+vus,1675958129,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958129,1.000000,,,,,,,,,,,,,,,
+vus,1675958130,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958130,1.000000,,,,,,,,,,,,,,,
+vus,1675958131,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958131,1.000000,,,,,,,,,,,,,,,
+vus,1675958132,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958132,1.000000,,,,,,,,,,,,,,,
+vus,1675958133,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958133,1.000000,,,,,,,,,,,,,,,
+vus,1675958134,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958134,1.000000,,,,,,,,,,,,,,,
+vus,1675958135,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958135,1.000000,,,,,,,,,,,,,,,
+vus,1675958136,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958136,1.000000,,,,,,,,,,,,,,,
+vus,1675958137,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958137,1.000000,,,,,,,,,,,,,,,
+vus,1675958138,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958138,1.000000,,,,,,,,,,,,,,,
+vus,1675958139,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958139,1.000000,,,,,,,,,,,,,,,
+vus,1675958140,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958140,1.000000,,,,,,,,,,,,,,,
+vus,1675958141,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958141,1.000000,,,,,,,,,,,,,,,
+vus,1675958142,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958142,1.000000,,,,,,,,,,,,,,,
+vus,1675958143,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958143,1.000000,,,,,,,,,,,,,,,
+vus,1675958144,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958144,1.000000,,,,,,,,,,,,,,,
+vus,1675958145,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958145,1.000000,,,,,,,,,,,,,,,
+vus,1675958146,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958146,1.000000,,,,,,,,,,,,,,,
+vus,1675958147,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958147,1.000000,,,,,,,,,,,,,,,
+vus,1675958148,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958148,1.000000,,,,,,,,,,,,,,,
+vus,1675958149,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958149,1.000000,,,,,,,,,,,,,,,
+vus,1675958150,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958150,1.000000,,,,,,,,,,,,,,,
+vus,1675958151,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958151,1.000000,,,,,,,,,,,,,,,
+vus,1675958152,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958152,1.000000,,,,,,,,,,,,,,,
+vus,1675958153,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958153,1.000000,,,,,,,,,,,,,,,
+vus,1675958154,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958154,1.000000,,,,,,,,,,,,,,,
+vus,1675958155,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958155,1.000000,,,,,,,,,,,,,,,
+vus,1675958156,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958156,1.000000,,,,,,,,,,,,,,,
+vus,1675958157,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958157,1.000000,,,,,,,,,,,,,,,
+vus,1675958158,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958158,1.000000,,,,,,,,,,,,,,,
+vus,1675958159,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958159,1.000000,,,,,,,,,,,,,,,
+vus,1675958160,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958160,1.000000,,,,,,,,,,,,,,,
+vus,1675958161,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958161,1.000000,,,,,,,,,,,,,,,
+vus,1675958162,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958162,1.000000,,,,,,,,,,,,,,,
+vus,1675958163,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958163,1.000000,,,,,,,,,,,,,,,
+vus,1675958164,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958164,1.000000,,,,,,,,,,,,,,,
+vus,1675958165,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958165,1.000000,,,,,,,,,,,,,,,
+vus,1675958166,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958166,1.000000,,,,,,,,,,,,,,,
+vus,1675958167,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958167,1.000000,,,,,,,,,,,,,,,
+vus,1675958168,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958168,1.000000,,,,,,,,,,,,,,,
+vus,1675958169,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958169,1.000000,,,,,,,,,,,,,,,
+vus,1675958170,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958170,1.000000,,,,,,,,,,,,,,,
+vus,1675958171,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958171,1.000000,,,,,,,,,,,,,,,
+vus,1675958172,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958172,1.000000,,,,,,,,,,,,,,,
+vus,1675958173,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958173,1.000000,,,,,,,,,,,,,,,
+vus,1675958174,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958174,1.000000,,,,,,,,,,,,,,,
+vus,1675958175,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958175,1.000000,,,,,,,,,,,,,,,
+vus,1675958176,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958176,1.000000,,,,,,,,,,,,,,,
+vus,1675958177,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958177,1.000000,,,,,,,,,,,,,,,
+vus,1675958178,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958178,1.000000,,,,,,,,,,,,,,,
+vus,1675958179,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958179,1.000000,,,,,,,,,,,,,,,
+vus,1675958180,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958180,1.000000,,,,,,,,,,,,,,,
+vus,1675958181,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958181,1.000000,,,,,,,,,,,,,,,
+vus,1675958182,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958182,1.000000,,,,,,,,,,,,,,,
+vus,1675958183,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958183,1.000000,,,,,,,,,,,,,,,
+vus,1675958184,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958184,1.000000,,,,,,,,,,,,,,,
+vus,1675958185,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958185,1.000000,,,,,,,,,,,,,,,
+vus,1675958186,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958186,1.000000,,,,,,,,,,,,,,,
+vus,1675958187,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958187,1.000000,,,,,,,,,,,,,,,
+vus,1675958188,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958188,1.000000,,,,,,,,,,,,,,,
+vus,1675958189,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958189,1.000000,,,,,,,,,,,,,,,
+vus,1675958190,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958190,1.000000,,,,,,,,,,,,,,,
+vus,1675958191,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958191,1.000000,,,,,,,,,,,,,,,
+vus,1675958192,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958192,1.000000,,,,,,,,,,,,,,,
+vus,1675958193,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958193,1.000000,,,,,,,,,,,,,,,
+vus,1675958194,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958194,1.000000,,,,,,,,,,,,,,,
+vus,1675958195,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958195,1.000000,,,,,,,,,,,,,,,
+vus,1675958196,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958196,1.000000,,,,,,,,,,,,,,,
+vus,1675958197,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958197,1.000000,,,,,,,,,,,,,,,
+vus,1675958198,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958198,1.000000,,,,,,,,,,,,,,,
+vus,1675958199,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958199,1.000000,,,,,,,,,,,,,,,
+vus,1675958200,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958200,1.000000,,,,,,,,,,,,,,,
+vus,1675958201,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958201,1.000000,,,,,,,,,,,,,,,
+vus,1675958202,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958202,1.000000,,,,,,,,,,,,,,,
+vus,1675958203,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958203,1.000000,,,,,,,,,,,,,,,
+vus,1675958204,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958204,1.000000,,,,,,,,,,,,,,,
+vus,1675958205,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958205,1.000000,,,,,,,,,,,,,,,
+vus,1675958206,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958206,1.000000,,,,,,,,,,,,,,,
+vus,1675958207,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958207,1.000000,,,,,,,,,,,,,,,
+vus,1675958208,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958208,1.000000,,,,,,,,,,,,,,,
+vus,1675958209,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958209,1.000000,,,,,,,,,,,,,,,
+vus,1675958210,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958210,1.000000,,,,,,,,,,,,,,,
+vus,1675958211,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958211,1.000000,,,,,,,,,,,,,,,
+vus,1675958212,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958212,1.000000,,,,,,,,,,,,,,,
+vus,1675958213,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958213,1.000000,,,,,,,,,,,,,,,
+vus,1675958214,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958214,1.000000,,,,,,,,,,,,,,,
+vus,1675958215,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958215,1.000000,,,,,,,,,,,,,,,
+vus,1675958216,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958216,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958217,98811.972100,,,,,:: Book appointment on MountSinai API::page_2 - https://www.mountsinai.org/appointment,,,,default,,,,,,
+vus,1675958217,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958217,1.000000,,,,,,,,,,,,,,,
+vus,1675958218,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958218,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958218,1.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_req_duration,1675958218,1096.989300,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_req_blocked,1675958218,104.233600,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_req_connecting,1675958218,17.822800,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_req_tls_handshaking,1675958218,40.557600,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_req_sending,1675958218,0.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_req_waiting,1675958218,1092.507800,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_req_receiving,1675958218,4.481500,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_req_failed,1675958218,0.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,POST,https://raa.mountsinai.org/makeappt/procApptReq.cfm,HTTP/2.0,default,,302,,tls1.3,https://raa.mountsinai.org/makeappt/procApptReq.cfm,
+http_reqs,1675958218,1.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+http_req_duration,1675958218,372.357000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+http_req_blocked,1675958218,0.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+http_req_connecting,1675958218,0.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+http_req_tls_handshaking,1675958218,0.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+http_req_sending,1675958218,0.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+http_req_waiting,1675958218,371.493600,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+http_req_receiving,1675958218,0.863400,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+http_req_failed,1675958218,0.000000,,,,true,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,GET,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,HTTP/2.0,default,,200,,tls1.3,https://raa.mountsinai.org/makeappt/thanks.cfm?pid=MSH00000DDD00000000020&dept=&div=&apptid=000010110516826&q=,
+checks,1675958218,1.000000,find doctor status is ok 200,,,,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,,,,default,,,,,,
+group_duration,1675958218,1573.421700,,,,,:: Book appointment on MountSinai API::page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm,,,,default,,,,,,
+group_duration,1675958218,100385.393800,,,,,:: Book appointment on MountSinai API,,,,default,,,,,,
+vus,1675958219,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958219,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958219,1.000000,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_duration,1675958219,1177.866800,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_blocked,1675958219,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_connecting,1675958219,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_tls_handshaking,1675958219,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_sending,1675958219,0.515200,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_waiting,1675958219,1171.286800,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_receiving,1675958219,6.064800,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_failed,1675958219,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+checks,1675958219,1.000000,home status is ok 200,,,,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,,,,default,,,,,,
+vus,1675958220,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958220,1.000000,,,,,,,,,,,,,,,
+vus,1675958221,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958221,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958221,2499.007000,,,,,:: Find the Doctors on MountSinai API::Page_1 - https://www.mountsinai.org/,,,,default,,,,,,
+http_reqs,1675958221,1.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+http_req_duration,1675958221,329.224300,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+http_req_blocked,1675958221,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+http_req_connecting,1675958221,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+http_req_tls_handshaking,1675958221,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+http_req_sending,1675958221,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+http_req_waiting,1675958221,327.689700,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+http_req_receiving,1675958221,1.534600,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+http_req_failed,1675958221,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://www.mountsinai.org/find-a-doctor,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/find-a-doctor,my_tag=Find a doctor tag
+checks,1675958221,1.000000,find doctor status is ok 200,,,,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,,,,default,,,,,,
+vus,1675958222,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958222,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958222,1.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+http_req_duration,1675958222,195.415800,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+http_req_blocked,1675958222,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+http_req_connecting,1675958222,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+http_req_tls_handshaking,1675958222,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+http_req_sending,1675958222,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+http_req_waiting,1675958222,194.534300,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+http_req_receiving,1675958222,0.881500,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+http_req_failed,1675958222,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/fad/autocomplete,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete,my_tag=doctor tag
+vus,1675958223,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958223,1.000000,,,,,,,,,,,,,,,
+vus,1675958224,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958224,1.000000,,,,,,,,,,,,,,,
+vus,1675958225,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958225,1.000000,,,,,,,,,,,,,,,
+vus,1675958226,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958226,1.000000,,,,,,,,,,,,,,,
+vus,1675958227,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958227,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958227,1.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+http_req_duration,1675958227,301.224000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+http_req_blocked,1675958227,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+http_req_connecting,1675958227,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+http_req_tls_handshaking,1675958227,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+http_req_sending,1675958227,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+http_req_waiting,1675958227,300.948500,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+http_req_receiving,1675958227,0.275500,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+http_req_failed,1675958227,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi,
+vus,1675958228,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958228,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958228,1.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+http_req_duration,1675958228,223.403800,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+http_req_blocked,1675958228,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+http_req_connecting,1675958228,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+http_req_tls_handshaking,1675958228,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+http_req_sending,1675958228,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+http_req_waiting,1675958228,223.403800,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+http_req_receiving,1675958228,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+http_req_failed,1675958228,0.000000,,,,true,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,GET,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vik,
+vus,1675958229,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958229,1.000000,,,,,,,,,,,,,,,
+vus,1675958230,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958230,1.000000,,,,,,,,,,,,,,,
+vus,1675958231,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958231,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958231,10665.758900,,,,,:: Find the Doctors on MountSinai API::page_2 - https://www.mountsinai.org/find-a-doctor,,,,default,,,,,,
+http_reqs,1675958232,1.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+http_req_duration,1675958232,262.587500,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+http_req_blocked,1675958232,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+http_req_connecting,1675958232,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+http_req_tls_handshaking,1675958232,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+http_req_sending,1675958232,1.515500,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+http_req_waiting,1675958232,260.792800,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+http_req_receiving,1675958232,0.279200,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+http_req_failed,1675958232,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/augustus-g-mantia,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/augustus-g-mantia,my_tag=Doctors name tag
+vus,1675958232,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958232,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958232,1.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+http_req_duration,1675958232,439.035400,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+http_req_blocked,1675958232,109.508900,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+http_req_connecting,1675958232,6.850800,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+http_req_tls_handshaking,1675958232,26.385800,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+http_req_sending,1675958232,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+http_req_waiting,1675958232,416.034300,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+http_req_receiving,1675958232,23.001100,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+http_req_failed,1675958232,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/augustus-g-mantia,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/augustus-g-mantia,my_tag=Doctors name tag
+checks,1675958232,1.000000,doctor found status is ok 200,,,,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,,,,default,,,,,,
+vus,1675958233,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958233,1.000000,,,,,,,,,,,,,,,
+vus,1675958234,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958234,1.000000,,,,,,,,,,,,,,,
+vus,1675958235,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958235,1.000000,,,,,,,,,,,,,,,
+vus,1675958236,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958236,1.000000,,,,,,,,,,,,,,,
+vus,1675958237,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958237,1.000000,,,,,,,,,,,,,,,
+vus,1675958238,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958238,1.000000,,,,,,,,,,,,,,,
+vus,1675958239,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958239,1.000000,,,,,,,,,,,,,,,
+vus,1675958240,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958240,1.000000,,,,,,,,,,,,,,,
+vus,1675958241,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958241,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958241,9932.084800,,,,,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,,,,default,,,,,,
+http_reqs,1675958241,1.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+http_req_duration,1675958241,253.028900,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+http_req_blocked,1675958241,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+http_req_connecting,1675958241,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+http_req_tls_handshaking,1675958241,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+http_req_sending,1675958241,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+http_req_waiting,1675958241,252.563600,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+http_req_receiving,1675958241,0.465300,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+http_req_failed,1675958241,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/zahava-hersh,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/zahava-hersh,my_tag=Doctors name tag
+vus,1675958242,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958242,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958242,1.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+http_req_duration,1675958242,296.742000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+http_req_blocked,1675958242,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+http_req_connecting,1675958242,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+http_req_tls_handshaking,1675958242,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+http_req_sending,1675958242,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+http_req_waiting,1675958242,293.831700,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+http_req_receiving,1675958242,2.910300,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+http_req_failed,1675958242,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/zahava-hersh,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/zahava-hersh,my_tag=Doctors name tag
+checks,1675958242,1.000000,doctor found status is ok 200,,,,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,,,,default,,,,,,
+vus,1675958243,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958243,1.000000,,,,,,,,,,,,,,,
+vus,1675958244,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958244,1.000000,,,,,,,,,,,,,,,
+vus,1675958245,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958245,1.000000,,,,,,,,,,,,,,,
+vus,1675958246,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958246,1.000000,,,,,,,,,,,,,,,
+vus,1675958247,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958247,1.000000,,,,,,,,,,,,,,,
+vus,1675958248,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958248,1.000000,,,,,,,,,,,,,,,
+vus,1675958249,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958249,1.000000,,,,,,,,,,,,,,,
+vus,1675958250,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958250,1.000000,,,,,,,,,,,,,,,
+vus,1675958251,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958251,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958251,9667.509300,,,,,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,,,,default,,,,,,
+http_reqs,1675958251,1.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+http_req_duration,1675958251,273.982600,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+http_req_blocked,1675958251,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+http_req_connecting,1675958251,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+http_req_tls_handshaking,1675958251,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+http_req_sending,1675958251,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+http_req_waiting,1675958251,273.631500,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+http_req_receiving,1675958251,0.351100,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+http_req_failed,1675958251,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://www.mountsinai.org/profiles/maki-kano,HTTP/2.0,default,,301,,tls1.3,https://www.mountsinai.org/profiles/maki-kano,my_tag=Doctors name tag
+vus,1675958252,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958252,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958252,1.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+http_req_duration,1675958252,431.189300,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+http_req_blocked,1675958252,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+http_req_connecting,1675958252,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+http_req_tls_handshaking,1675958252,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+http_req_sending,1675958252,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+http_req_waiting,1675958252,403.297900,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+http_req_receiving,1675958252,27.891400,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+http_req_failed,1675958252,0.000000,,,,true,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,GET,https://profiles.mountsinai.org/maki-kano,HTTP/2.0,default,,200,,tls1.3,https://profiles.mountsinai.org/maki-kano,my_tag=Doctors name tag
+checks,1675958252,1.000000,doctor found status is ok 200,,,,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,,,,default,,,,,,
+vus,1675958253,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958253,1.000000,,,,,,,,,,,,,,,
+vus,1675958254,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958254,1.000000,,,,,,,,,,,,,,,
+vus,1675958255,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958255,1.000000,,,,,,,,,,,,,,,
+vus,1675958256,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958256,1.000000,,,,,,,,,,,,,,,
+vus,1675958257,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958257,1.000000,,,,,,,,,,,,,,,
+vus,1675958258,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958258,1.000000,,,,,,,,,,,,,,,
+vus,1675958259,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958259,1.000000,,,,,,,,,,,,,,,
+vus,1675958260,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958260,1.000000,,,,,,,,,,,,,,,
+vus,1675958261,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958261,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958261,9817.996800,,,,,:: Find the Doctors on MountSinai API::Page_3 : https://www.mountsinai.org/profiles,,,,default,,,,,,
+group_duration,1675958261,42583.358200,,,,,:: Find the Doctors on MountSinai API,,,,default,,,,,,
+http_reqs,1675958261,1.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_duration,1675958261,299.781600,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_blocked,1675958261,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_connecting,1675958261,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_tls_handshaking,1675958261,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_sending,1675958261,0.529800,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_waiting,1675958261,295.287500,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_receiving,1675958261,3.964300,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_failed,1675958261,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+checks,1675958261,1.000000,home status is ok 200,,,,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,,,,default,,,,,,
+vus,1675958262,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958262,1.000000,,,,,,,,,,,,,,,
+vus,1675958263,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958263,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958263,1.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+http_req_duration,1675958263,199.513600,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+http_req_blocked,1675958263,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+http_req_connecting,1675958263,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+http_req_tls_handshaking,1675958263,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+http_req_sending,1675958263,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+http_req_waiting,1675958263,198.513900,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+http_req_receiving,1675958263,0.999700,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+http_req_failed,1675958263,0.000000,,,,true,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,my_tag=find tag
+vus,1675958264,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958264,1.000000,,,,,,,,,,,,,,,
+vus,1675958265,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958265,1.000000,,,,,,,,,,,,,,,
+vus,1675958266,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958266,1.000000,,,,,,,,,,,,,,,
+vus,1675958267,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958267,1.000000,,,,,,,,,,,,,,,
+vus,1675958268,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958268,1.000000,,,,,,,,,,,,,,,
+vus,1675958269,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958269,1.000000,,,,,,,,,,,,,,,
+vus,1675958270,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958270,1.000000,,,,,,,,,,,,,,,
+vus,1675958271,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958271,1.000000,,,,,,,,,,,,,,,
+vus,1675958272,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958272,1.000000,,,,,,,,,,,,,,,
+vus,1675958273,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958273,1.000000,,,,,,,,,,,,,,,
+vus,1675958274,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958274,1.000000,,,,,,,,,,,,,,,
+vus,1675958275,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958275,1.000000,,,,,,,,,,,,,,,
+vus,1675958276,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958276,1.000000,,,,,,,,,,,,,,,
+vus,1675958277,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958277,1.000000,,,,,,,,,,,,,,,
+vus,1675958278,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958278,1.000000,,,,,,,,,,,,,,,
+vus,1675958279,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958279,1.000000,,,,,,,,,,,,,,,
+vus,1675958280,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958280,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958280,19721.238600,,,,,:: Check the locations on MountSinai API::Page_1 : https://www.mountsinai.org/,,,,default,,,,,,
+vus,1675958281,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958281,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958281,1.000000,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+http_req_duration,1675958281,310.090300,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+http_req_blocked,1675958281,0.000000,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+http_req_connecting,1675958281,0.000000,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+http_req_tls_handshaking,1675958281,0.000000,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+http_req_sending,1675958281,0.000000,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+http_req_waiting,1675958281,300.643000,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+http_req_receiving,1675958281,9.447300,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+http_req_failed,1675958281,0.000000,,,,true,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,GET,https://www.mountsinai.org/locations,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/locations,my_tag=locations tag
+checks,1675958281,1.000000,locations status is ok 200,,,,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,,,,default,,,,,,
+group_duration,1675958281,310.059200,,,,,:: Check the locations on MountSinai API::Page_2 : https://www.mountsinai.org/locations,,,,default,,,,,,
+group_duration,1675958281,20031.812200,,,,,:: Check the locations on MountSinai API,,,,default,,,,,,
+http_reqs,1675958281,1.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_duration,1675958281,316.793600,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_blocked,1675958281,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_connecting,1675958281,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_tls_handshaking,1675958281,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_sending,1675958281,0.514800,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_waiting,1675958281,315.759600,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_receiving,1675958281,0.519200,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+http_req_failed,1675958281,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://www.mountsinai.org/,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/,my_tag=Home tag
+checks,1675958281,1.000000,home status is ok 200,,,,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,,,,default,,,,,,
+vus,1675958282,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958282,1.000000,,,,,,,,,,,,,,,
+vus,1675958283,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958283,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958283,1.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_duration,1675958283,223.572600,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_blocked,1675958283,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_connecting,1675958283,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_tls_handshaking,1675958283,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_sending,1675958283,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_waiting,1675958283,223.572600,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_receiving,1675958283,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+http_req_failed,1675958283,0.000000,,,,true,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,GET,https://doctor.mountsinai.org/fad/autocomplete/lite,HTTP/2.0,default,,200,,tls1.3,https://doctor.mountsinai.org/fad/autocomplete/lite,
+vus,1675958284,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958284,1.000000,,,,,,,,,,,,,,,
+vus,1675958285,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958285,1.000000,,,,,,,,,,,,,,,
+vus,1675958286,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958286,1.000000,,,,,,,,,,,,,,,
+vus,1675958287,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958287,1.000000,,,,,,,,,,,,,,,
+vus,1675958288,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958288,1.000000,,,,,,,,,,,,,,,
+vus,1675958289,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958289,1.000000,,,,,,,,,,,,,,,
+vus,1675958290,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958290,1.000000,,,,,,,,,,,,,,,
+vus,1675958291,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958291,1.000000,,,,,,,,,,,,,,,
+vus,1675958292,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958292,1.000000,,,,,,,,,,,,,,,
+vus,1675958293,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958293,1.000000,,,,,,,,,,,,,,,
+vus,1675958294,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958294,1.000000,,,,,,,,,,,,,,,
+vus,1675958295,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958295,1.000000,,,,,,,,,,,,,,,
+vus,1675958296,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958296,1.000000,,,,,,,,,,,,,,,
+group_duration,1675958296,14954.528800,,,,,::  Search Page on MountSinai API::Page_1 - https://www.mountsinai.org/,,,,default,,,,,,
+http_reqs,1675958296,1.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_duration,1675958296,352.220000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_blocked,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_connecting,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_tls_handshaking,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_sending,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_waiting,1675958296,348.330500,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_receiving,1675958296,3.889500,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_failed,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+checks,1675958296,1.000000,find open status is ok 200,,,,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,,,,default,,,,,,
+group_duration,1675958296,352.184600,,,,,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,,,,default,,,,,,
+http_reqs,1675958296,1.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_duration,1675958296,347.852700,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_blocked,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_connecting,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_tls_handshaking,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_sending,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_waiting,1675958296,330.582300,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_receiving,1675958296,17.270400,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_failed,1675958296,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+checks,1675958296,1.000000,find open status is ok 200,,,,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,,,,default,,,,,,
+group_duration,1675958296,348.329700,,,,,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,,,,default,,,,,,
+vus,1675958297,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958297,1.000000,,,,,,,,,,,,,,,
+http_reqs,1675958297,1.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_duration,1675958297,381.619100,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_blocked,1675958297,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_connecting,1675958297,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_tls_handshaking,1675958297,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_sending,1675958297,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_waiting,1675958297,376.539100,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_receiving,1675958297,5.080000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+http_req_failed,1675958297,0.000000,,,,true,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,GET,https://www.mountsinai.org/search?query=undefined,HTTP/2.0,default,,200,,tls1.3,https://www.mountsinai.org/search?query=undefined,my_tag=Search tags
+checks,1675958297,1.000000,find open status is ok 200,,,,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,,,,default,,,,,,
+group_duration,1675958297,382.096900,,,,,::  Search Page on MountSinai API::Page_2 - https://www.mountsinai.org/search,,,,default,,,,,,
+group_duration,1675958297,16037.140000,,,,,::  Search Page on MountSinai API,,,,default,,,,,,
+vus,1675958298,1.000000,,,,,,,,,,,,,,,
+vus_max,1675958298,1.000000,,,,,,,,,,,,,,,
+data_sent,1675958298,9128.000000,,,,,,,,,default,,,,,,
+data_received,1675958298,578716.000000,,,,,,,,,default,,,,,,
+iteration_duration,1675958298,220207.215500,,,,,,,,,default,,,,,,
+iterations,1675958298,1.000000,,,,,,,,,default,,,,,,
