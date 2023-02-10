@@ -1,0 +1,7 @@
+# azure-pipelines.yml
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: 'k6 run index.js'
