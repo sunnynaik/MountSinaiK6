@@ -1,7 +1,9 @@
 # azure-pipelines.yml
 
 pool:
-  vmImage: 'ubuntu-latest'
+    name: K6Demo
 
 steps:
-  - task: 'k6 run index.js'
+  - task: k6-load-test@0
+    inputs:
+      filename: 'index.js'

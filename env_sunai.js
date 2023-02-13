@@ -1,5 +1,5 @@
 export const vus = 10;
-export const duration = '1m30s'
+export const duration = '1m'
 export const homeurl = 'https://www.mountsinai.org/'
 export const searchurl = 'https://www.mountsinai.org/search'
 export const finddoctorurl = 'https://www.mountsinai.org/find-a-doctor';
