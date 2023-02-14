@@ -1,15 +1,17 @@
 import { sleep, group,check } from 'k6'
 import http from 'k6/http'
+import { vus,duration } from '../env_sunai.js'
 
-export const options = {
- 
-   vus: 10, 
-  duration: '2m',
+export const options = { 
+  
+  vus: vus,
+  duration: duration,
   thresholds: {
-  http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-  http_req_duration: ['p(95)<600'], // 95% of requests should be below 20000ms
-},
+      http_req_failed: ['rate<0.01'], // http errors should be less than 1%
+      http_req_duration: ['p(95)<600'], // 95% of requests should be below 2000ms
+    },
 }
+
 
 export default function main() {
   let response
@@ -31,12 +33,11 @@ export default function main() {
         'accept-language': 'en-US,en;q=0.9',
       },
     })
-    check(response,{
-      "find doctor status is ok 200": (r)=> r.status === 200,
+  
   })
-    sleep(98.5)
-  })
-
+  check(response,{
+    "find doctor status is ok 200": (r)=> r.status === 200,
+})
   group('page_4 - https://raa.mountsinai.org/makeappt/procApptReq.cfm', function () {
     response = http.post(
       'https://raa.mountsinai.org/makeappt/procApptReq.cfm',

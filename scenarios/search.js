@@ -1,29 +1,26 @@
-import { sleep, group, check } from 'k6'
+import { sleep, group,check } from 'k6'
 import http from 'k6/http'
 import { SharedArray } from 'k6/data'
 import { vus,duration,homeurl ,searchurl} from '../env_sunai.js'
-
 export const options = { 
   
-    vus: vus,
-     duration: duration,
-     thresholds: {
-        http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-        http_req_duration: ['p(95)<600'], // 95% of requests should be below 600ms
-      },
-     }
+  vus: vus,
+  duration: duration,
+  thresholds: {
+      http_req_failed: ['rate<0.01'], // http errors should be less than 1%
+      http_req_duration: ['p(95)<600'], // 95% of requests should be below 2000ms
+    },
+}
+
 
      const data = new SharedArray('some data name', function () {
       return JSON.parse(open('../rawdata/searchData.json')).users;
     });
     
- 
 
 export default function main() {
   let response
 
-  
-  
   group(`Page_1 - ${homeurl}`, function () {
     response = http.get(homeurl, {
       tags : {
@@ -44,10 +41,7 @@ export default function main() {
         'accept-language': 'en-US,en;q=0.9',
       },
     })
-    check(response,{
-        "home status is ok 200": (r)=> r.status === 200,
-    })
-    sleep(1.5)
+    
     response = http.get('https://doctor.mountsinai.org/fad/autocomplete/lite', {
       headers: {
         'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
@@ -63,14 +57,18 @@ export default function main() {
         'accept-language': 'en-US,en;q=0.9',
       },
     })
-    sleep(12.9)
+   
   })
+  check(response,{
+    "search box status is ok 200": (r)=> r.status === 200,
+})
   const user = data[0];
+
   for(const getdata of data){
     // console.log(getdata.query)
   
   group(`Page_2 - ${searchurl}`, function () {
-    response = http.get(`${searchurl}?query=${getdata.query}`, {
+    response = http.get(`${searchurl}?query=cardiologist`, {
       tags : {
         my_tag: "Search tags"
       },
@@ -89,12 +87,10 @@ export default function main() {
         'accept-language': 'en-US,en;q=0.9',
       },
     })
-    check(response,{
-        "find open status is ok 200": (r)=> r.status === 200,
-    })
   })
   check(response,{
-    "Search status is ok": (r)=> r.status === 200
-  })
+  "found search status is ok": (r)=> r.status === 200
+})
 }
+
 }

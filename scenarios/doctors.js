@@ -3,15 +3,16 @@ import http from 'k6/http'
 import { SharedArray } from 'k6/data'
 import { vus,duration,homeurl, doctorprofile } from '../env_sunai.js'
 // import { SharedArray } from 'k6/data'
-export const options = {
+
+export const options = { 
   
-     vus: vus,
-     duration: duration,
-     thresholds: {
-        http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-        http_req_duration: ['p(95)<600'], // 95% of requests should be below 20000ms
-      },
-    }
+  vus: vus,
+  duration: duration,
+  thresholds: {
+      http_req_failed: ['rate<0.01'], // http errors should be less than 1%
+      http_req_duration: ['p(95)<600'], // 95% of requests should be below 2000ms
+    },
+}
 
     const data = new SharedArray('some data name', function () {
       return JSON.parse(open('../rawdata/finddoctorData.json')).users;
@@ -42,11 +43,10 @@ export default function main() {
         'accept-language': 'en-US,en;q=0.9',
       },
     })
-    check(response,{
-        "home status is ok 200": (r)=> r.status === 200,
-    })
-    sleep(1.3)
   })
+  check(response,{
+    "home status is ok 200": (r)=> r.status === 200,
+})
 
   group('page_2 - https://www.mountsinai.org/find-a-doctor', function () {
     response = http.get('https://www.mountsinai.org/find-a-doctor', {
@@ -91,6 +91,9 @@ export default function main() {
         my_tag: "doctor tag",
       },
     })
+    check(response,{
+      "Specialty doctors found is ok 200": (r)=> r.status === 200,
+  })
     sleep(5.1)
     response = http.get('https://doctor.mountsinai.org/api/autocomplete?searchQuery=Vi', {
       headers: {
@@ -147,8 +150,9 @@ export default function main() {
     })
     sleep(9.1)
   })
-  check(response,{
-    "Doctors find is ok": (r)=> r.status === 200
-  })
+ 
    }
+   check(response,{
+    "Required Doctor found is ok": (r)=> r.status === 200
+  })
   }  

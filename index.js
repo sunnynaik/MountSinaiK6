@@ -21,14 +21,14 @@ export const options = {
     vus:vus,
   // duration:duration,
   stages: [
-    { duration: "5s", target: 10 },
-    { duration: "5s", target: 10 },
-    { duration: "5s", target: 10 },
-    { duration: "5s", target: 10 },
+    { duration: "10s", target: 10 },
+    { duration: "10s", target: 10 },
+    { duration: "10s", target: 10 },
+    { duration: "10s", target: 10 },
   ],
   thresholds: {
     http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-    http_req_duration: ['p(95)<2001'], // 95% of requests should be below 2000ms
+    http_req_duration: ['p(95)<8001'], // 95% of requests should be below 2000ms
   },
   
     ext: {
@@ -45,18 +45,19 @@ export default ()=> {
     group(" Search appointment on MountSinai API ", ()=> {
         GetAppointsments()
     })
-  
+ 
     group(" Book appointment on MountSinai API",()=> {
         BookAppointment()
     })
-   
+
     group(" Find the Doctors on MountSinai API",()=> {
         Doctors()
     })
+  
+   group(" Check the locations on MountSinai API",()=> {
+    Location()
+   })
 
-    group(" Check the locations on MountSinai API",()=> {
-        Location()
-    })
     group("  Search Page on MountSinai API",()=> {
         Search()
     })

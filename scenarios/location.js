@@ -1,16 +1,21 @@
-import { sleep, group,check } from 'k6';
+import { sleep, group,check } from 'k6'
 import http from 'k6/http';
+import { SharedArray } from 'k6/data'
 import { vus,duration, homeurl, locationurl } from '../env_sunai.js';
-export const options = {
+export const options = { 
   
-     vus: vus, 
-     duration: duration,
-     thresholds: {
-        http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-        http_req_duration: ['p(95)<600'], // 95% of requests should be below 600ms
-      },
-     }
+  vus: vus,
+  duration: duration,
+  thresholds: {
+      http_req_failed: ['rate<0.01'], // http errors should be less than 1%
+      http_req_duration: ['p(95)<600'], // 95% of requests should be below 2000ms
+    },
+}
 
+     const data = new SharedArray('some data name', function () {
+      return JSON.parse(open('../rawdata/searchData.json')).users;
+    });
+    
 export default function main() {
   let response
 
@@ -56,9 +61,14 @@ export default function main() {
         'accept-language': 'en-US,en;q=0.9',
       },
     })
-    sleep(17.6)
+    check(response,{
+      "Near location status is ok 200": (r)=> r.status === 200,
   })
+  })
+  const user = data[0];
 
+  for(const getdata of data){
+ 
   // This is the locatios 
   group(`Page_2 : ${locationurl}`, function () {
     response = http.get(locationurl, {
@@ -79,12 +89,14 @@ export default function main() {
         'accept-encoding': 'gzip, deflate, br',
         'accept-language': 'en-US,en;q=0.9',
       },
+      
     })
     check(response,{
-        "locations status is ok 200": (r)=> r.status === 200,
+      "Exact location  status is ok": (r)=> r.status === 200
     })
   })
   check(response,{
-    "locations status is ok": (r)=> r.status === 200
+    "Exact location  status is ok": (r)=> r.status === 200
   })
+}
 }

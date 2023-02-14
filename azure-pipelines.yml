@@ -5,6 +5,8 @@ pool:
 
 steps:
   - task: k6-load-test@0
-    displayName: Run k6 load index
+    displayName: Run index.js with k6
     inputs:
-      cloud: true
+       filename: 'index.js'
+       cloud: true
+s

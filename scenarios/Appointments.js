@@ -42,7 +42,7 @@ export default function main() {
       },
     })
     check(response,{
-        "Initials status is ok 200": (r)=> r.status === 200,
+        " status is ok 200": (r)=> r.status === 200,
     })
     sleep(2.7)
     response = http.get('https://doctor.mountsinai.org/fad/autocomplete/lite', {
