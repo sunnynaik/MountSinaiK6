@@ -10,7 +10,7 @@ export const options = {
     duration: duration,
     thresholds: {
         http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-        http_req_duration: ['p(95)<2001'], // 95% of requests should be below 2000ms
+        http_req_duration: ['p(95)<600'], // 95% of requests should be below 2000ms
       },
  }
 
@@ -42,7 +42,7 @@ export default function main() {
       },
     })
     check(response,{
-        "home status is ok 200": (r)=> r.status === 200,
+        "Initials status is ok 200": (r)=> r.status === 200,
     })
     sleep(2.7)
     response = http.get('https://doctor.mountsinai.org/fad/autocomplete/lite', {
@@ -62,6 +62,9 @@ export default function main() {
     })
     sleep(4.6)
   })
+  check(response,{
+    "Home page status is ok 200": (r)=> r.status === 200,
+})
 
   group(
     `Page_2 : ${latestdoctor}`,

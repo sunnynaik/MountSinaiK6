@@ -4,6 +4,7 @@ import Doctors from './scenarios/doctors.js'
 import Location from './scenarios/location.js'
 import Search from './scenarios/search.js'
 import {group,sleep} from 'k6'
+import { vus } from './env_sunai.js'
 
 
 // This is use  only for ceate html Report 
@@ -17,11 +18,24 @@ import {group,sleep} from 'k6'
 //   }
 
 export const options = {
+    vus:vus,
+  // duration:duration,
+  stages: [
+    { duration: "5s", target: 10 },
+    { duration: "5s", target: 10 },
+    { duration: "5s", target: 10 },
+    { duration: "5s", target: 10 },
+  ],
+  thresholds: {
+    http_req_failed: ['rate<0.01'], // http errors should be less than 1%
+    http_req_duration: ['p(95)<2001'], // 95% of requests should be below 2000ms
+  },
+  
     ext: {
         loadimpact: {
-          projectID: 3607882,
+          projectID: 3626852,
           // Test runs with the same name groups test runs together
-          name: "Mount Sinai Api"
+          name: "Web Api"
         }
       },
 }

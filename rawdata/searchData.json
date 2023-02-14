@@ -5,7 +5,11 @@
         },
         {
           "query" : "heart+transplan"
-      }
+      },
+      {
+        "query" : "heart+transplan"
+    }
+    
 
     ]
   }

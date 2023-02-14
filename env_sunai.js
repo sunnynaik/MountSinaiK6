@@ -1,4 +1,4 @@
-export const vus = 10;
+export const vus = 50;
 export const duration = '1m'
 export const homeurl = 'https://www.mountsinai.org/'
 export const searchurl = 'https://www.mountsinai.org/search'
