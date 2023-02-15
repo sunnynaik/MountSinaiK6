@@ -9,4 +9,3 @@ steps:
     inputs:
        filename: 'index.js'
        cloud: true
-s
