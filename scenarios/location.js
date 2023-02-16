@@ -2,13 +2,14 @@ import { sleep, group,check } from 'k6'
 import http from 'k6/http';
 import { SharedArray } from 'k6/data'
 import { vus,duration, homeurl, locationurl } from '../env_sunai.js';
+
 export const options = { 
   
   vus: vus,
   duration: duration,
   thresholds: {
       http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-      http_req_duration: ['p(95)<600'], // 95% of requests should be below 2000ms
+      http_req_duration: ['p(99)<2000'], // 95% of requests should be below 2000ms
     },
 }
 

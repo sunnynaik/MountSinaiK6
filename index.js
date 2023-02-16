@@ -9,26 +9,26 @@ import { vus } from './env_sunai.js'
 
 // This is use  only for ceate html Report 
 
-// import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
-// export function handleSummary(data) {
-//     return {
-//       "summary.html": htmlReport(data),
-//     };
-//   }
+export function handleSummary(data) {
+    return {
+      "summary.html": htmlReport(data),
+    };
+  }
 
 export const options = {
     vus:vus,
   // duration:duration,
   stages: [
-    { duration: "10s", target: 10 },
-    { duration: "10s", target: 10 },
-    { duration: "10s", target: 10 },
-    { duration: "10s", target: 10 },
+    { duration: "20s", target: 10 },
+    { duration: "20s", target: 10 },
+    { duration: "20s", target: 10 },
+    { duration: "20s", target: 10 },
   ],
   thresholds: {
     http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-    http_req_duration: ['p(95)<8001'], // 95% of requests should be below 2000ms
+    http_req_duration: ['p(99)<3000'], // 99% of requests should be below 3000ms
   },
   
     ext: {
